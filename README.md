@@ -1,7 +1,8 @@
 # DePrBViHO
 Detection and prevent bad images and Vietnamese Hate and offensive sentences.
 # CHECKLIST!!!!!
-- [ ] Get permission! 
+- [ ] Get permission!
+- [ ] Collect material
 - [ ] Clone Almost repo
 - [ ] Modify source code
 - [ ] Buy Colab Pro from donated money
@@ -10,7 +11,7 @@ Detection and prevent bad images and Vietnamese Hate and offensive sentences.
 - [ ] Detect 18+ image, image contain badword (veryyy hard)
 - [ ] find a better server
 
-
+### nah
 >Some sources that i have collected:
 ```
 
