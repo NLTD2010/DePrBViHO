@@ -1,5 +1,6 @@
 # DePrBViHO
-Detection and prevent bad images and Vietnamese Hate and offensive sentences.
+
+Detecting and prevent bad images and Vietnamese Hate and offensive contents.
 # CHECKLIST!!!!!
 - [ ] Get permission!
 - [ ] Collect material
