@@ -1,5 +1,5 @@
 # DePrBViHO
-Detection and prevent bad images and Vietnamese Hate and offensive sentences.
+Detecting and prevent bad images and Vietnamese Hate and offensive sentences.
 >Some sources that i have collected:
 ```
 
