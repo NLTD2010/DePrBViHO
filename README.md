@@ -2,8 +2,8 @@
 
 Detecting and prevent bad images and Vietnamese Hate and offensive contents.
 # CHECKLIST!!!!!
-- [ ] Get permission!
-- [ ] Collect material
+- [x] Get permission!
+- [x] Collect material
 - [ ] Clone Almost repo
 - [ ] Modify source code
 - [ ] Buy Colab Pro from donated money
