@@ -1,0 +1,16 @@
+
+{
+	"manifest_version": 3,
+	"name": "DePrBViHO YouTube Comment Filter",
+	"version": "1.0",
+	"permissions": ["scripting", "activeTab"],
+	"content_scripts": [
+		{
+		"matches": ["*://www.youtube.com/*"],
+		"js": ["content.js"]
+		}
+	],
+	"action": {
+		"default_popup": "popup.html"
+	}
+}
