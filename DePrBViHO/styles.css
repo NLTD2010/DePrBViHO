@@ -1,0 +1,138 @@
+/* style.css */
+
+/* Tổng thể */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Khung container chính */
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Phong cách cho từng khung (card) */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Tiêu đề */
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #4a90e2;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Văn bản */
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Cấu hình biểu mẫu */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4a90e2;
+}
+
+/* Nút bấm */
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Tin nhắn trạng thái */
+#statusMessage {
+    color: #4caf50;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Khung biểu đồ */
+canvas {
+    max-width: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Căn chỉnh bảng thống kê (nếu có bảng) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+td {
+    color: #555;
+}

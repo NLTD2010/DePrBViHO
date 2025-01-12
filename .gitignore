@@ -1,0 +1,6 @@
+_pycache_
+/server/_pycache_
+/server/phobert.onnx
+/server/server.log
+model
+*.code-workspace

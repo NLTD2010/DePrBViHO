@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Filter Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the new CSS file -->
+    <script src="chart.js"></script> <!-- Local copy of Chart.js -->
+    <script src="dashboard.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard</h1>
+
+        <!-- Weekly Data Section -->
+        <div class="card">
+            <h2>Số liệu tuần hiện tại</h2>
+            <p>Số bình luận đã sàng lọc: <span id="filteredCountWeek">0</span></p>
+            <p>Số bình luận xấu đã bấm xem: <span id="clickedCountWeek">0</span></p>
+        </div>
+        <!-- Monthly Data Chart Section -->
+        <div class="card">
+            <h2>Thống kê trong 1 tháng</h2>
+            <canvas id="contentChart" width="400" height="200"></canvas>
+        </div>
+        <!-- Email Configuration Section -->
+        <div class="card">
+            <h2>Email Configuration</h2>
+            <form id="emailConfigForm">
+                <label for="recipientEmail">Email người nhận:</label>
+                <input type="email" id="recipientEmail" required>
+                <button type="submit">Lưu cài đặt Email</button>
+            </form>
+            <p id="statusMessage"></p>
+        </div>
+    </div>
+</body>
+</html>
