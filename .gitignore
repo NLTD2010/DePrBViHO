@@ -1,5 +1,5 @@
 _pycache_
-/server/_pycache_
+/server/__pycache__
 /server/phobert.onnx
 /server/server.log
 model
